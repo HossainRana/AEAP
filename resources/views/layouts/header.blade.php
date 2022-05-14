@@ -2,7 +2,7 @@
 <header id="header">
     <div class="topnav" id="myTopnav">
         <a href="#"><img class="logo" src="{{URL::to('/assets/images/logo.jpeg')}}" alt=""></a>
-        <a id="active">WEBSITE.COM</a>
+        <a id="active">Carter-Machinery</a>
         <a href="{{route('home')}}">Home</a>
         <a href="{{route('home')}}">Who we are</a>
         <a href="{{route('home')}}">Brands</a>
