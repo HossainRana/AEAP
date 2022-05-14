@@ -1,114 +1,15 @@
-<style>
-    .nav {
-        height: 55px;
-        width: 100%;
-        background-color: #000000;
-        position: relative;
-        justify-content: space-between;
-        padding: 0 10%;
-    }
-
-    .nav > .nav-header {
-        display: inline;
-    }
-
-    .nav > .nav-header > .nav-title {
-        display: inline-block;
-        font-size: 22px;
-        color: #fff;
-        padding: 10px 10px 10px 10px;
-    }
-
-    .nav > .nav-btn {
-        display: none;
-    }
-
-    .nav > .nav-links {
-        display: inline;
-        float: right;
-        font-size: 18px;
-    }
-
-    .nav > .nav-links > a {
-        display: inline-block;
-        padding: 13px 10px 13px 10px;
-        text-decoration: none;
-        color: #efefef;
-    }
-
-    .nav > .nav-links > a:hover {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-
-    .nav > #nav-check {
-        display: none;
-    }
-
-    @media (max-width:600px) {
-        .nav > .nav-btn {
-            display: inline-block;
-            position: absolute;
-            right: 0px;
-            top: 0px;
-        }
-        .nav > .nav-btn > label {
-            display: inline-block;
-            width: 50px;
-            height: 50px;
-            padding: 13px;
-        }
-        .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-            background-color: rgba(0, 0, 0, 0.3);
-        }
-        .nav > .nav-btn > label > span {
-            display: block;
-            width: 25px;
-            height: 10px;
-            border-top: 2px solid #eee;
-        }
-        .nav > .nav-links {
-            position: absolute;
-            display: block;
-            width: 100%;
-            background-color: #333;
-            height: 0px;
-            transition: all 0.3s ease-in;
-            overflow-y: hidden;
-            top: 50px;
-            left: 0px;
-        }
-        .nav > .nav-links > a {
-            display: block;
-            width: 100%;
-        }
-        .nav > #nav-check:not(:checked) ~ .nav-links {
-            height: 0px;
-        }
-        .nav > #nav-check:checked ~ .nav-links {
-            height: calc(100vh - 50px);
-            overflow-y: auto;
-        }
-    }
-</style>
-
-<div class="nav">
-    <input type="checkbox" id="nav-check">
-    <div class="nav-header">
-        <div class="nav-title p-0">
-            <img src="{{URL::to('/assets/images/logo.jpeg')}}" alt="Brand logo"  style="width: 120px; height: 55px; object-fit: cover;">
-        </div>
+<!--TOP NAVIGATION-->
+<header id="header">
+    <div class="topnav" id="myTopnav">
+        <a href="#"><img class="logo" src="{{URL::to('/assets/images/logo.jpeg')}}" alt=""></a>
+        <a id="active">WEBSITE.COM</a>
+        <a href="{{route('home')}}">Home</a>
+        <a href="{{route('home')}}">Who we are</a>
+        <a href="{{route('home')}}">Brands</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+{{--        <a href="#about" style="float:right;padding: 24px 2px;"><i class="fas fa-search"></i></a>--}}
+{{--        <a href="#about" style="float:right;padding: 24px 2px;"><i class="fa fa-user-circle-o"></i></a>--}}
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
     </div>
-    <div class="nav-btn">
-        <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-    </div>
-
-    <div class="nav-links">
-        <a href="{{route('home')}}" target="_blank">Home</a>
-        <a href="#" target="_blank">Who We are</a>
-        <a href="#" target="_blank">Brands</a>
-    </div>
-</div>
+</header>

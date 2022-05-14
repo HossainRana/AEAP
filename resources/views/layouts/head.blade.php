@@ -29,5 +29,9 @@
     <script src="{{asset('/assets/bootstrap/dist/js/bootstrap.js')}}"></script>
     <script src="{{asset('/assets/bootstrap/dist/js/popper.js')}}"></script>
     <script src="{{asset('/assets/bootstrap/dist/js/tooltip.js')}}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+
     <title>@yield('title')</title>
 
