@@ -1,0 +1,213 @@
+
+:root{
+    --bg-yellow : #ffff00;
+}
+
+.layout-space{
+    background: #ffffff;
+}
+
+.get-work-section{
+    background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(../images/get-work.jpg);
+    width: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-margin-top{
+    margin-top: 60px;
+}
+.each-section{
+    padding: 70px 0;
+}
+
+.section-heading h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    font-family: initial;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.work-card{
+    background: var(--bg-yellow);
+    width: 100%;
+    min-height: 180px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.work-card:hover{
+    transform: scale(1.4);
+    background: #ffffff;
+    border: 1px solid #ffff00;
+    transition: all 0.3s ease-in-out;
+}
+.work-icon svg{
+    color: #000000;
+    font-size: 50px;
+}
+.work-title p{
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 0.8vw;
+    margin: 0;
+    margin-top: 7px;
+}
+.service-welder-left img{
+    width: 100%;
+}
+.para-text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.list-style-cm{
+    padding: 0;
+    margin: 0;
+    color: #000000;
+}
+.list-style-cm li{
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.list-style-cm li::before{
+    content: '\2713';
+    display: inline-block;
+    background: #e9e917;
+    border-radius: 50%;
+    padding: 0 0 0px 7px;
+    width: 25px;
+    height: 25px;
+    margin-right: 14px;
+}
+.service-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container .hero {
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* LEFT PART */
+.left {
+    grid-area: 1 / 1 / 3 / 3;
+    border: 10px solid #ffff00;
+    padding: 30px;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+.left h1{
+    text-transform: uppercase;
+    font-size: clamp(20px, 5vw ,40px);
+    font-weight: 700;
+    white-space: nowrap;
+}
+.left h1 span{
+    color: #ffff00;
+}
+.left p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.left a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #ffff00;
+    color: #000;
+    font-weight: 700;
+}
+.left a:hover{
+    color: #FFFFFF;
+    background-color: #ffff00;
+}
+
+
+/* RIGHT PART */
+.right {
+    grid-area: 2 / 2 / 4 / 4;
+    border: 10px solid #ffff00;
+    position: relative;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* LEFT AND RIGHT BANDS */
+.left::before,
+.right::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    width: 50vw;
+    background: #ffff00;
+}
+.left::before{
+    left: 0;
+    transform: translateY(-50%) translateX(-100%);
+}
+.right::before{
+    right: 0;
+    transform: translateY(-50%) translateX(100%);
+}
+
+@media screen and (max-width: 450px){
+    .about-container .hero {
+        grid-template-rows: 6fr 1fr 6fr;
+    }
+    .left{
+        grid-area: 1 / 1 / 3 / 4;
+    }
+    .right{
+        grid-area: 2 / 1 / 4 / 4
+    }
+}
+.each-brands{
+    box-shadow: inset 0px 0px 6px 1px #e9e9e9ad;
+    padding: 7px;
+    border-radius: 7px;
+}
+.each-brands img{
+    box-shadow: inset 0px 0px 6px 1px #e9e9e9ad;
+    padding: 7px;
+    border-radius: 7px;
+    background: #ffffffb8;
+}
+.brand-section{
+    background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(../images/get-work.jpg);
+    width: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
