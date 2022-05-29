@@ -1,10 +1,10 @@
 
 :root{
-    --bg-yellow : #f6d33c;
+    --bg-yellow : #eab902;
 }
 
 .layout-space{
-    background: #ffffff;
+    background: #000000;
 }
 
 .get-work-section{
@@ -13,9 +13,14 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    min-height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section-margin-top{
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 .each-section{
     padding: 70px 0;
@@ -30,6 +35,14 @@
     font-family: initial;
     text-transform: uppercase;
     margin-bottom: 50px;
+    width: fit-content;
+}
+.section-heading h2::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #f6d33c;
 }
 .work-card{
     background: var(--bg-yellow);
@@ -54,10 +67,18 @@
 }
 .work-title p{
     text-transform: uppercase;
-    color: #000000;
+    color: #ffffff;
     font-size: 0.8vw;
     margin: 0;
     margin-top: 7px;
+}
+.work-card:hover .work-title p{
+    color: #000000;
+}
+.service-welder-left{
+    box-shadow: -10px 7px 20px 0px #eab902;
+    border-radius: 8px;
+    overflow: hidden;
 }
 .service-welder-left img{
     width: 100%;
@@ -65,12 +86,12 @@
 .para-text p{
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 .list-style-cm{
     padding: 0;
     margin: 0;
-    color: #000000;
+    color: #ffffff;
 }
 .list-style-cm li{
     line-height: 30px;
@@ -195,20 +216,19 @@
 }
 .each-brands{
     box-shadow: inset 0px 0px 6px 1px #e9e9e9ad;
-    padding: 7px;
+    padding: 22px 0;
     border-radius: 7px;
-    min-height: 170px;
     display: flex;
     justify-content: center;
     width: 100%;
-    background: #ffffff9e;
+    background: #ffffff;
 }
 .each-brands img{
     object-fit: contain;
     width: 100%;
 }
 .brand-section{
-    background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(../images/get-work.jpg);
+    /*background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(../images/get-work.jpg);*/
     width: 100%;
     background-position: bottom center;
     background-repeat: no-repeat;

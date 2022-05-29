@@ -4,6 +4,7 @@
         background: #000000;
         color: #999999;
         font-size: 10pt;
+        border-top: 1px solid #eab902;
     }
 
     div#footer-container {
