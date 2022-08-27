@@ -48,7 +48,7 @@
                 <h2>lets's get to work</h2>
             </div>
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="work-card">
                         <div class="work-icon">
                             <i class="fas fa-tags"></i>
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="work-card">
                         <div class="work-icon">
                             <i class="fas fa-recycle"></i>
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="work-card">
                         <div class="work-icon">
                             <i class="fas fa-clock"></i>
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="work-card">
                         <div class="work-icon">
                             <i class="fas fa-cog"></i>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="work-card">
                         <div class="work-icon">
                             <i class="fas fa-briefcase"></i>
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="work-card">
                         <div class="work-icon">
                             <i class="fas fa-map-marked"></i>
@@ -122,32 +122,32 @@
                 <h2>Brands</h2>
             </div>
             <div class="row" style="background: #1a1a1a; padding: 28px 14px;  border-radius: 12px;">
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="each-brands">
                         <img src="{{asset('/assets/images/brands/brand-01.png')}}" alt="brand images">
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="each-brands">
                         <img src="{{asset('/assets/images/brands/brand-02.png')}}" alt="brand images">
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="each-brands">
                         <img src="{{asset('/assets/images/brands/brand-03.png')}}" alt="brand images">
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="each-brands">
                         <img src="{{asset('/assets/images/brands/brand-04.png')}}" alt="brand images">
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="each-brands">
                         <img src="{{asset('/assets/images/brands/brand-05.png')}}" alt="brand images">
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 mt-4">
                     <div class="each-brands">
                         <img src="{{asset('/assets/images/brands/brand-06.png')}}" alt="brand images">
                     </div>

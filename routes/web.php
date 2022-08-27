@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
     return view('welcome');
 });*/
 Route::get('/', [App\Http\Controllers\FrontController::class, 'homePage'])->name('home');
+Route::get('/contact', [App\Http\Controllers\FrontController::class, 'contact'])->name('contact');
 
 Auth::routes();
 

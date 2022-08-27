@@ -20,6 +20,7 @@
     <script src="{{asset('/assets/js/main.js')}}"></script>
 
     {{--Bootstrap JS--}}
+    <script src="{{asset('/assets/js/jquery.min.js')}}"></script>
     <script src="{{asset('/assets/bootstrap/dist/js/bootstrap.js')}}"></script>
     <script src="{{asset('/assets/bootstrap/dist/js/popper.js')}}"></script>
     <script src="{{asset('/assets/bootstrap/dist/js/tooltip.js')}}"></script>
