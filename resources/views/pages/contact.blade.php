@@ -19,6 +19,7 @@ margin-bottom: 15px;
 .contact-info-item {
   background: #071c34;
   padding: 30px 0px;
+  height: 230px;
 }
 .contact-page-sec .contact-page-form h2 {
   color: #ffffff;
@@ -111,6 +112,12 @@ padding-left: 0;
 .contact-page-form form {
     padding: 20px 15px 0;
 }
+.contact-info-icon svg{
+  height: 50px;
+}
+.contact-info-icon svg path{
+  fill: #ffffff;
+}
 </style>
 
 
@@ -125,8 +132,8 @@ padding-left: 0;
               </div>
               <div class="contact-info-text">
                 <h2>address</h2>
-                <span>1215 Lorem Ipsum, Ch 176080 </span> 
-                <span>Chandigarh , INDIA</span> 
+                <span>American Equipment & Parts <br>14861 Walmer street</span> 
+                <span>Overland park, KS 66210 USA</span> 
               </div>
             </div>            
           </div>          
@@ -139,8 +146,7 @@ padding-left: 0;
               </div>
               <div class="contact-info-text">
                 <h2>E-mail</h2>
-                <span>info@LoremIpsum.com</span> 
-                <span>yourmail@gmail.com</span>
+                <span>sales@aep-usa.com</span> 
               </div>
             </div>            
           </div>                
@@ -152,9 +158,9 @@ padding-left: 0;
                 <i class="fas fa-clock"></i>
               </div>
               <div class="contact-info-text">
-                <h2>office time</h2>
-                <span>Mon - Thu  9:00 am - 4.00 pm</span>
-                <span>Thu - Mon  10.00 pm - 5.00 pm</span>
+                <h2>Connect</h2>
+                <span>Telephone: (913) 406-1044</span>
+                <span>Fax: (913) 393-1400</span>
               </div>
             </div>            
           </div>          
@@ -200,7 +206,7 @@ padding-left: 0;
         </div>
         <div class="col-md-4">        
           <div class="contact-page-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2579.9516364354295!2d90.40248806181715!3d23.86823893216424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c57d0cf2a72d%3A0x113944524e59790!2sUttara%20Buffet%20Pro!5e0!3m2!1sen!2sbd!4v1661629902797!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d776.7152012226629!2d-94.66243467075218!3d38.85854314303821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0c199359f2fc5%3A0xdf0882816996ec32!2s14861%20Walmer%20St%2C%20Overland%20Park%2C%20KS%2066223%2C%20USA!5e0!3m2!1sen!2sbd!4v1662227362099!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>          
         </div>        
       </div>
