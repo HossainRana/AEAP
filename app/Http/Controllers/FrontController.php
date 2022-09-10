@@ -10,6 +10,11 @@ class FrontController extends Controller
         return view('pages.index');
     }
 
+    public function aboutPage(){
+        return view('pages.about');
+    }
+    
+
     public function contact(){
         return view('pages.contact');
     }
