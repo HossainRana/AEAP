@@ -31,9 +31,7 @@
                 <section>
                     <h1 class="headerc" style="margin-top: 50px">American Equipment <br> And Parts </h1>
                     <h4 class="sub-title" style="font-weight: 600; text-align:justify">
-                    <strong>
                         American Equipment & parts is committed to serving the mining and construction industries with new, rebuilt, and quality used replacement parts for off-highway heavy mobile equipment such as haul trucks, electric and hydraulic shovels, drills, loaders, dozers, and much more. We have access to a growing inventory of diesel engines, transmissions, suspensions, hydraulic cylinders, final drive parts, gears, differentials, electric motors, plus the smaller, harder to find parts you may need.
-                    </strong> 
                     </h4>
                     <!-- <a href="#Auctions" class="btn1">Show More</a> -->
                 </section>
@@ -46,9 +44,7 @@
                 <section>
                     <h1 class="headerc">One stop for quality  <br>machine and parts. </h1>
                     <h4 class="sub-title" style="font-weight: 600; text-align:justify">
-                        <strong>
-                            A.E.P. also has an equipment division which serves mines, quarries, and contractors around the world. We have new and reconditioned equipment for several manufacturers such as Caterpillar, Komatsu/Dresser, Detroit Diesel, Hitachi, Wabco, Terex, Euclid, Unit Rig/Dart, Mack, International, and many others.
-                        </strong>
+                        A.E.P. also has an equipment division which serves mines, quarries, and contractors around the world. We have new and reconditioned equipment for several manufacturers such as Caterpillar, Komatsu/Dresser, Detroit Diesel, Hitachi, Wabco, Terex, Euclid, Unit Rig/Dart, Mack, International, and many others.
                     </h4>
                     <!-- <a href="#Auctions" class="btn1">Show More</a> -->
                 </section>
