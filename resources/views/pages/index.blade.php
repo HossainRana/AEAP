@@ -45,67 +45,57 @@
     <div class="get-work-section section-margin-top each-section">
         <div class="container">
             <div class="section-heading">
-                <h2>lets's get to work</h2>
+                <h2>Brands</h2>
             </div>
-            <div class="row">
+            <div class="row" style="background: #1a1a1a; padding: 28px 14px;  border-radius: 12px;">
                 <div class="col-md-2 mt-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fas fa-tags"></i>
-                        </div>
-                        <div class="work-title">
-                            <p>new</p>
-                        </div>
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b1.png')}}" alt="brand images">
                     </div>
                 </div>
                 <div class="col-md-2 mt-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fas fa-recycle"></i>
-                        </div>
-                        <div class="work-title">
-                            <p>used</p>
-                        </div>
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b2.png')}}" alt="brand images">
                     </div>
                 </div>
                 <div class="col-md-2 mt-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="work-title">
-                            <p>rental</p>
-                        </div>
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b3.png')}}" alt="brand images">
                     </div>
                 </div>
                 <div class="col-md-2 mt-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fas fa-cog"></i>
-                        </div>
-                        <div class="work-title">
-                            <p>buy parts</p>
-                        </div>
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b4.png')}}" alt="brand images">
                     </div>
                 </div>
                 <div class="col-md-2 mt-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fas fa-briefcase"></i>
-                        </div>
-                        <div class="work-title">
-                            <p>careers</p>
-                        </div>
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b5.png')}}" alt="brand images">
                     </div>
                 </div>
                 <div class="col-md-2 mt-4">
-                    <div class="work-card">
-                        <div class="work-icon">
-                            <i class="fas fa-map-marked"></i>
-                        </div>
-                        <div class="work-title">
-                            <p>locations</p>
-                        </div>
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b6.png')}}" alt="brand images">
+                    </div>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b7.png')}}" alt="brand images">
+                    </div>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b8.png')}}" alt="brand images">
+                    </div>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b9.png')}}" alt="brand images">
+                    </div>
+                </div>
+                <div class="col-md-2 mt-4">
+                    <div class="each-brands">
+                        <img src="{{asset('/assets/images/brands/b10.png')}}" alt="brand images">
                     </div>
                 </div>
             </div>
@@ -115,76 +105,69 @@
 
 
     {{--            Brand Section           --}}
-
-    <div class="brand-section section-margin-top each-section">
-        <div class="container">
-            <div class="section-heading">
-                <h2>Brands</h2>
-            </div>
-            <div class="row" style="background: #1a1a1a; padding: 28px 14px;  border-radius: 12px;">
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-01.png')}}" alt="brand images">
-                    </div>
+    {{-- <section id="brands">
+        <div class="brand-section section-margin-top each-section">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Brands</h2>
                 </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-02.png')}}" alt="brand images">
+                <div class="row" style="background: #1a1a1a; padding: 28px 14px;  border-radius: 12px;">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b1.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-03.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b2.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-04.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b3.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-05.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b4.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-06.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b5.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-07.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b6.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-08.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b7.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-09.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b8.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-10.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b9.png')}}" alt="brand images">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-11.png')}}" alt="brand images">
-                    </div>
-                </div>
-                <div class="col-md-2 mt-4">
-                    <div class="each-brands">
-                        <img src="{{asset('/assets/images/brands/brand-12.png')}}" alt="brand images">
+                    <div class="col-md-2 mt-4">
+                        <div class="each-brands">
+                            <img src="{{asset('/assets/images/brands/b10.png')}}" alt="brand images">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section> --}}
+
+    
 
     {{--            About us            --}}
 
@@ -198,7 +181,7 @@
             <div class="hero">
                 <div class="left">
                     <div class="section-heading">
-                        <h2 class="text-left" style="color: black">American equipment<br><span style="color: #ffff00"><b>and parts</b></span></h2>
+                        <h2 class="text-left" style="color: black">American equipment<br><span style="color: #eab902"><b>and parts</b></span></h2>
                     </div>
                     <div class="para-text">
                         <p style="color: #000000">
@@ -210,7 +193,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img src="{{asset('/assets/images/about.jpg')}}" alt="">
+                    <img src="{{asset('/assets/images/about-02.jpg')}}" alt="">
                 </div>
             </div>
         </div>

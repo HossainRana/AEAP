@@ -332,46 +332,10 @@
 </style>
 <footer id="footer-4-cols" class="site-footer">
     <div id="footer-container">
-        <div id="footer-grid">
-            <div id="left-footer-section" class="footer-section">
-                <div class="footer-information">
-                    <p><img src="https://img.icons8.com/ios-filled/12/999999/marker.png">30/20, Verkhy street, Moscow, Russia</p>
-                    <p><img src="https://img.icons8.com/ios-filled/12/999999/phone.png">7 (800) 555–35–35</p>
-                    <p><img src="https://img.icons8.com/ios-filled/12/999999/mail.png">noreply@reply.io</p>
-                    <p><img src="https://img.icons8.com/ios-filled/12/999999/clock.png">8:00 AM – 8:00 PM</p>
-                </div>
-            </div>
-            <div id="second-footer-section" class="footer-section">
-                <div class="footer-links">
-                    <h3>Categories</h3>
-                    <ul>
-                        <li><a href="#">Software Development</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Site maintainance</a></li>
-                        <li><a href="#">SEO</a></li>
-                        <li><a href="#">Mobile development</a></li>
-                        <li><a href="#">UI/UX</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="right-footer-section" class="footer-section">
-                <div class="footer-links">
-                    <h3>Information</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact Information</a></li>
-                        <li><a href="#">Terms of Use<br>& Legal Information</a></li>
-                        <li><a href="#">Message Us</a></li>
-                        <li><a href="#">Leave a Feedback</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div id="copyright-information">
             <div id="footer-logo-section">
                 <div id="footer-logo">
-                    <img src="{{URL::to('/assets/images/logo.jpeg')}}" alt="Brand logo"  style="height: 55px; object-fit: cover;">
+                    <img src="{{URL::to('/assets/images/aep-logo2.png')}}" alt="Brand logo"  style="object-fit: cover;">
                 </div></div>
             <div id="copyright-text">
                 &copy; AEAP Inc. 2022. All rights reserved.

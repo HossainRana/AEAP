@@ -7,7 +7,7 @@
         .about__us-container{
             width: 100%;
             height: 500px;
-            background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(././public/assets/images/banner-02.jpg);
+            background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(././public/assets/images/slider-02.jpg);
             background-position: center center;
             position: relative;
         }
