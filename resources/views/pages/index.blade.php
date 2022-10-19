@@ -42,7 +42,7 @@
     </div>
 
 
-    <div class="get-work-section section-margin-top each-section">
+<!--    <div class="get-work-section section-margin-top each-section">
         <div class="container">
             <div class="section-heading">
                 <h2>Brands</h2>
@@ -100,7 +100,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 
 
@@ -167,7 +167,7 @@
         </div>
     </section> --}}
 
-    
+
 
     {{--            About us            --}}
 

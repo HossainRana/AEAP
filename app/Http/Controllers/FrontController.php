@@ -13,10 +13,13 @@ class FrontController extends Controller
     public function aboutPage(){
         return view('pages.about');
     }
-    
 
     public function contact(){
         return view('pages.contact');
+    }
+
+    public function brandPage(){
+        return view('pages.brand');
     }
 }
 
